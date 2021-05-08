@@ -173,3 +173,25 @@
     }
   }
 }
+
+// Responsividade
+
+@media (max-width: 1280px) {
+  .homepage {
+    padding: 0 2rem;
+    height: calc(100vh - 3.5rem);
+  }
+}
+
+@media (max-width: 1024px) {
+  .homepage {
+    height: calc(100vh + 3.5rem);
+  }
+}
+
+@media (max-width: 768px) {
+  .homepage {
+    height: 100%;
+    padding: 1rem 2rem;
+  }
+}

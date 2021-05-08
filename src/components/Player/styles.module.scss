@@ -134,3 +134,20 @@
     }
   }
 }
+
+// Responsividade
+@media (max-width: 1366px) {
+  .playerContainer {
+    width: 24rem;
+    padding: 3rem 2rem;
+    height: auto;
+  }
+}
+
+@media (max-width: 1280px) {
+  .playerContainer {
+    width: 24rem;
+    padding: 4rem 2rem;
+    height: auto;
+  }
+}
